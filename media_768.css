@@ -1,0 +1,55 @@
+@media only screen and (max-width: 768px) {
+
+ 
+
+  .text-4{
+  
+    margin-top: 3%;
+  }
+
+  .text-9 {
+  
+  font-size: 100%;
+}
+
+.text-semi {
+  
+  font-size: 150%;
+}
+
+  .container{
+    
+    height: 100%;
+    gap: 1em 15px;
+  }
+
+  .container2{
+    
+    height: 100%;
+    grid-template-areas:
+  "box1 box1 " 
+  "box7 box7 "
+  "box2 box2 "
+  "box3 box3 "
+  "box4 box4 "
+  "box8 box8 "
+  "box5 box5 "
+  "box6 box6 ";
+  }
+
+  
+
+  .container3{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+  }
+
+  .image2{
+    width: 20%;
+    display: inline-block;
+    margin-left: 30px;
+}
+  
+}
