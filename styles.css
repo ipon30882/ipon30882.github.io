@@ -1,41 +1,11 @@
 
 
-.back{
-  color: aliceblue;
-}
-
 /* CSS Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-.format-1 {
-  border: 1px solid black;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-}
-
-body {
-  width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
-}
-
-
-
-
-.rectangle-1-3 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(217, 217, 217, 1);
-}
-
-
 
 
 .bg{
@@ -52,20 +22,17 @@ body {
 }
 
 .bg-1 {
-  
-  background-color: rgb(169, 35, 35);
-  /*138, 128, 128*/
-  block-size: 20%;
-  
-  border-block: solid
+
+  background-image: url("/pic/bg.jpg");
+  background-attachment: fixed;
   
 }
 
 .bg-2 {
   
-  background-color: rgb(138, 128, 128);
-  width: 30%;
   
+  width: 30%;
+  height: auto;
   border-block: solid
   
 }
