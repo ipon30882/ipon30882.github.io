@@ -1,0 +1,48 @@
+.logo {
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 3s;
+  -moz-animation-name: fadein;
+  -moz-animation-duration: 3s;
+  -ms-animation-name: fadein;
+  -ms-animation-duration: 3s;
+  -o-animation-name: fadein;
+  -o-animation-duration: 3s;
+  animation-name: fadein;
+  animation-duration: 3s;
+}
+
+/* ที่เวลา 0% (เริ่มต้น):
+ความโปร่งใส (opacity) เป็น 0 → มองไม่เห็น
+
+มีการขยับไปทางซ้าย -250px จากตำแหน่งเดิม (margin-left: -250px)
+
+ที่เวลา 100% (สิ้นสุด):
+
+ความโปร่งใสเป็น 1 → มองเห็นเต็มที่
+
+อยู่ที่ตำแหน่งปกติ (margin-left: 0) */
+
+@-webkit-keyframes fadein {
+  0% { opacity: 0; margin-left: -250px; } /* สำหรับ Chrome, Safari */
+  100% { opacity: 1; margin-left: 0; }
+}
+
+@-moz-keyframes fadein {
+  0% { opacity: 0; margin-left: -250px; } /* สำหรับ Firefox รุ่นเก่า */
+  100% { opacity: 1; margin-left: 0; }
+}
+
+@-ms-keyframes fadein {
+  0% { opacity: 0; margin-left: -250px; } /* สำหรับ Internet Explorer */
+  100% { opacity: 1; margin-left: 0; }
+}
+
+@-o-keyframes fadein {
+  0% { opacity: 0; margin-left: -250px; } /* สำหรับ Opera */
+  100% { opacity: 1; margin-left: 0; }
+}
+
+@keyframes fadein {
+  0% { opacity: 0; margin-left: -250px; }
+  100% { opacity: 1; margin-left: 0; }
+}
