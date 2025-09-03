@@ -21,6 +21,12 @@
     
     height: 100%;
     gap: 1em 15px;
+    grid-template-areas:
+  "box1 box2 "
+  "box1 box2 "
+  "box1 box2 "
+  "box1 box2 "
+  "box3 box3 ";
   }
 
   .container2{

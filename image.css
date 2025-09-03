@@ -1,8 +1,9 @@
 .image {
   display: block;
-  width: 20%;
-  height: auto;
+  width: 150px;
+  height: 150px;
   margin-left: 12%;
+  
 }
 
 .image2{
